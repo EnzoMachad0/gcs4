@@ -10,7 +10,9 @@ PRIORITY_LEVELS = {"baixa": 1, "media": 2, "alta": 3}
 class Task:
     def __init__(self, title: str, priority: str = "media", description: str = ""):
         if priority not in PRIORITY_LEVELS:
-            raise ValueError(f"Prioridade inválida. Use: {list(PRIORITY_LEVELS.keys())}")
+            raise ValueError(
+                f"Prioridade inválida. Use: {list(PRIORITY_LEVELS.keys())}"
+            )
         self.title = title
         self.priority = priority
         self.description = description
@@ -54,7 +56,9 @@ class TaskManager:
 def main():
     manager = TaskManager()
 
-    manager.add("Revisar requisitos", priority="alta", description="Reunião com cliente")
+    manager.add(
+        "Revisar requisitos", priority="alta", description="Reunião com cliente"
+    )
     manager.add("Escrever testes unitários", priority="media")
     manager.add("Atualizar documentação", priority="baixa")
     manager.add("Corrigir bug de login", priority="alta")

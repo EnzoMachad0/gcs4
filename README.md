@@ -28,7 +28,7 @@ gcs-projeto/
 ## Pré-requisitos
 
 | Dependência | Versão mínima |
-|-------------|---------------|
+| ----------- | ------------- |
 | Python      | 3.11          |
 
 Não há dependências externas — a aplicação usa apenas a biblioteca padrão do Python.
@@ -39,7 +39,7 @@ Não há dependências externas — a aplicação usa apenas a biblioteca padrã
 
 ```bash
 # 1. Clone o repositório
-git clone <url-do-repositorio>
+git clone git git@github.com:EnzoMachad0/gcs4.git
 cd gcs-projeto
 
 # 2. (Opcional) Ajuste as configurações
