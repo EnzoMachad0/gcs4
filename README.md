@@ -73,3 +73,25 @@ Versão atual: **v1.0.0**
 ## Licença
 
 Uso acadêmico — disciplina GCS.
+## Licença
+
+Uso acadêmico — disciplina GCS.
+## Licença
+
+Uso acadêmico — disciplina GCS.
+## Licença
+
+Uso acadêmico — disciplina GCS.
+## Licença
+
+Uso acadêmico — disciplina GCS.
+## Licença
+
+Uso acadêmico — disciplina GCS.
+## Licença
+
+Uso acadêmico — disciplina GCS.
+## Licença
+
+Uso acadêmico — disciplina GCS.
+
