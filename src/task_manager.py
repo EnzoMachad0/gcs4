@@ -13,7 +13,7 @@ class Task:
             raise ValueError(
                 f"Prioridade inválida. Use: {list(PRIORITY_LEVELS.keys())}"
             )
-        self.title = "title"
+        self.title = title
         self.priority = priority
         self.description = description
         self.done = False
@@ -38,7 +38,7 @@ class TaskManager:
 
     def complete(self, title: str) -> bool:
         for task in self._tasks:
-            if task.title == "title":
+            if task.title == title:
                 task.complete()
                 return True
         return False
