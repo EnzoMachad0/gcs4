@@ -3,6 +3,7 @@
 Aplicação simples em Python para criação e acompanhamento de tarefas com prioridades.
 Desenvolvida como projeto de exemplo para a disciplina de **Gerência de Configuração de Software (GCS)**.
 
+
 ---
 
 ## Estrutura de Diretórios
