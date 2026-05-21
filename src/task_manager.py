@@ -45,7 +45,7 @@ class TaskManager:
 
     def list_tasks(self, only_pending: bool = False) -> list[Task]:
         tasks = [t for t in self._tasks if not t.done] if only_pending else self._tasks
-        return sorted(tasks, key=lambda t: t.priority, reverse=True)
+        return sorted(tasks, key=lambda t: PRIORITY_LEVELS[t.priority], reverse=True)
 
     def summary(self) -> dict:
         total = len(self._tasks)
